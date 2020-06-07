@@ -1,0 +1,26 @@
+html{
+  height: 100%;
+  background-image: linear-gradient(#ffcd61,#f0bbc4);
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: #0f222d;
+  background-size: auto;
+}
+
+.main{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  margin: auto;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+span{
+  cursor: pointer;
+}

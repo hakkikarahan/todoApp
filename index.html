@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make your todo list</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1>GÖREV LİSTESİ</h1>
+    <form action="index.html" method="post" id="listform" class="">
+      <input type="text" placeholder="New Task" name="task" id="task">
+      <button id="addtodo" type="submit"> <strong>ADD</strong></button>
+    </form>
+    <div class="liste">
+      <ul id="todoul">
+        <li><span class="delete">×</span><input type="checkbox"><label>Vanilla JavaScript</label></li>
+        <li><span class="delete">×</span><input type="checkbox"><label>Vue.js</label></li>
+        <li><span class="delete">×</span><input type="checkbox"><label>React.js</label></li>
+        <li><span class="delete">×</span><input type="checkbox"><label>Node.js</label></li>
+      </ul>
+      <!-- <a id="clear">Clear</a> -->
+      <button id="clsall" type="submit"> <strong>CLEAR</strong></button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
